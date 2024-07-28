@@ -1,0 +1,378 @@
+#mobile{
+	width: 360px;
+	height: 640px;
+	border: 3px solid black;
+}
+
+#login{/* ID/PW 버튼 */
+	border: 1px solid #d4d3d3;
+	width: 220px;
+	height: 30px;
+	cursor: pointer;
+	font-size: 15px;
+}
+
+#btn1{/* 로그인 버튼 */
+	border: none;
+	margin-top: 5px;
+	background-color: #b1e198;
+	color: white;
+	width: 226px;
+	height: 30px;
+	cursor: pointer;
+}
+
+#btn2{
+	border: none;
+	margin-top: 4px;
+	margin-left: 2px;
+	margin-right: 2px;
+	background-color: #d4d3d3;
+	color: white;
+	width: 90px;
+	height: 15px;
+	font-size: 8px;
+	cursor: pointer;
+}
+
+#how{
+	width: 360px;
+	position: absolute; 
+	top: 555px; 
+	border: none; 
+	color: white;
+	text-align: center;
+	font-size: 12px;
+	opacity: 0.7;
+}
+
+#week{
+	float: center;
+	margin: 5px;
+	font-size: 15px;
+}
+#startbtn{
+	float: center;
+	border: none;
+	margin-bottom: 10px;
+	background-color: #b1e198;
+	color: white;
+	width: 135px;
+	cursor: pointer;
+}
+#logoutbtn{
+	float: center;
+	border: none;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	background-color: #b1e198;
+	color: white;
+	width: auto;
+	cursor: pointer;
+}
+#topstyle{
+	text-align:center;
+	height:140px;
+	line-height:80px;
+	font-size:3.5em;
+	@font-face{
+		font-family:'nanum';
+		src: url("NanumPen.ttf");
+	}
+}
+
+button.camera{
+	float:left;
+	border:none;
+	margin-left: 5px;
+	cursor:pointer;
+	background-color: #ffffff;
+}
+
+button.logo{
+	position: absolute;
+	top: 25px;
+	left: 90px;
+	float: center;
+	border:none;
+	cursor:pointer;
+	background-color: #ffffff;
+}
+
+button.toprofile{
+	float:right;
+	border:none;
+	margin-right: 5px;
+	cursor:pointer;
+	background-color: #ffffff;
+}
+
+button.myprofile{
+	float: center;
+	border:none;
+	cursor:pointer;
+	background-color: #ffffff;
+}
+
+button:hover{
+	opacity: 0.8;
+}
+span.profile{
+	width:50px;
+	height:50px;
+}
+
+#topic{
+	background-color:white;
+	height:100px;
+	line-height:80px;
+	text-align:center;
+	color:black;
+}
+span.save{
+	color: #b1e198;
+}
+span.upperh{
+	color:#b1e198;
+	@font-face{
+		font-family:"nanum";
+		src: url("NanumPen.ttf");
+	}
+}
+.board1{/* mainpage(게시판) */
+	background-color: #E6E6E6;
+	width: 350px;
+	height:490px;
+	padding-top: 5px;
+	overflow: auto;
+}
+.board1::-webkit-scrollbar{
+	display: none;
+}
+
+#board2{/* mypage 위 */
+	background-color: #E6E6E6;
+	width: 350px;
+	height:280px;
+}
+#board3{/* mypage 아래 */
+	background-color: #E6E6E6;
+	width: 350px;
+	height:160px;
+	margin-top: 5px;
+}
+#board4{/* postpage */
+	background-color: #E6E6E6;
+	width: 350px;
+	height:420px;
+}
+#board5{/* profile page */
+	background-color: #E6E6E6;
+	width: 350px;
+	height:470px;
+}
+#title{/* postpage 제목 */
+	border: none;
+	margin-top: 5px;
+	background-color: white;
+	width: 340px;
+	font-size: 20px;
+}
+#content{/* postpage 내용 */
+	border: none;
+	margin-top: 5px;
+	background-color: white;
+	width: 340px;
+	height:378px;
+	font-size: 20px;
+	overflow: hidden;
+}
+#post{/* 공유 버튼 */
+	border: none;
+	margin-top: 5px;
+	background-color: #b1e198;
+	color: white;
+	width: 350px;
+	height: 30px;
+	cursor: pointer;
+}
+
+#profile_name{
+	margin: 10px;
+	font-size: 25px;
+	font-weight: bold;
+}
+#mypage1{
+	border: none;
+	width: 150px;
+	font-size: 17px;
+	text-align:left; 
+	cursor: pointer;
+}
+#mypage2{
+	border: none;
+	width: auto;
+	font-size: 17px;
+	font-weight: bold;
+	text-align:center; 
+	cursor: pointer;
+}
+
+#front_board{
+	position: relative;
+	width: 360px;
+	height: 430px;
+	background-image: url('front_background.PNG');
+	background-size: cover;
+}
+
+#img1{
+	position: relative;
+	top: 85px;
+	padding: 20px;
+	width: 250px;
+	height: auto;
+	color: white;
+	background-color: black;
+	opacity: 0.4;
+	border-radius: 20px;
+	font-size: 40px;
+}
+#img2{
+	position: relative;
+	top: 30px;
+	padding: 30px;
+	width: 240px;
+	height: auto;
+	color: white;
+	background-color: black;
+	opacity: 0.4;
+	border-radius: 20px;
+	font-size: 15px;
+	text-align: left;
+}
+#img3{
+	position: relative;
+	top: 60px;
+	padding: 20px;
+	width: 200px;
+	height: auto;
+	color: white;
+	background-color: black;
+	opacity: 0.4;
+	border-radius: 20px;
+	font-size: 20px;
+	text-align: left;
+}
+#mypage_btn{
+	border: none;
+	background-color: #E6E6E6;
+	cursor: pointer;
+	
+}
+#mypage_btn:hover{
+	font-weight: bolder;
+}
+
+#signup{
+	height: auto;
+	width: 250px;
+	padding: 20px;
+	text-align: left;
+}
+
+#su_insert{
+	height: 25px;
+	width: 250px;
+}
+
+.signup_font{
+	font-size: 13px;
+}
+
+#su{
+	border: none;
+	margin-top: 5px;
+	background-color: #b1e198;
+	color: white;
+	width: 254px;
+	height: 32px;
+	cursor: pointer;
+}
+
+#post_tbl{
+	table-layout: fixed;
+	background-color: white;
+	width: 340px;
+	height: auto;
+	font-size: 14px;
+}
+
+
+#like{
+	border: none;
+	background-image: url('like.PNG');
+	background-size: cover;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	width: 20px;
+}
+
+#pic{
+	border: none;
+	background-image: url('/changjin0605/tomcat/webapps/ROOT/img/20181218_2029062.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	width: 20px;
+}
+
+.myhistory_table{
+	font-size: 8pt;
+	width:96%;
+	border-top: 1px solid #70ad47;
+	border-collapse: collapse;
+}
+.myhistory_table th,
+.myhistory_table td{
+	position: relative;
+	border-bottom: 1px solid #70ad47;
+	padding: 10px;
+}
+.myhistory_table th{
+	background-color: white;
+}
+.th-1{
+	width: 100px;
+	height: 15px;
+}
+.th-2{
+	width: 140px;
+	height: 15px;
+}
+.th-3{
+	width: 140px;
+	height: 15px;
+}
+.th-4{
+	width: 140px;
+	height: 15px;
+}
+#pop{
+	position: absolute;
+	left: 100px;
+	top: 100px;
+	width:100px;
+	height: 100px;
+	z-index: 1;
+	display: none;
+}
+#addImg{
+	border: none;
+	margin-top: 5px;
+	background-color: #a8cfef;
+	color: white;
+	width: 350px;
+	height: 30px;
+	cursor: pointer;
+}
